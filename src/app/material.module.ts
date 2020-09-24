@@ -6,10 +6,12 @@ import { NgModule } from '@angular/core';
 // An example of `hey angular, I just want the button api`
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
-    imports:[MatButtonModule, MatIconModule],
-    exports:[MatButtonModule, MatIconModule]
+    imports:[MatButtonModule, MatIconModule,MatInputModule,MatFormFieldModule],
+    exports:[MatButtonModule, MatIconModule, MatInputModule,MatFormFieldModule]
 })
 export class MaterialModule {
 
